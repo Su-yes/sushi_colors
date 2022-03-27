@@ -24,7 +24,7 @@ def plot_color(name, pallet):
     ax.set_axis_off()
     ax.set_title(name, font = "Bahnschrift", size = 15)
     #
-    plt.savefig(name + '.png', dpi=1200)
+    # plt.savefig(name + '.png', dpi=1200)
 
 
 falling_leaves = np.array(["#7A372D", "#551E48", "#C03E21", "#568B18", "#ED9C29", "#E3CF3A"])
@@ -33,9 +33,10 @@ sale_in_autumn = np.array(["#93344B","#BB6553","#D3453F","#518F66","#F9B653","#F
 feast_your_heart = np.array(["#604B8A", "#E15D47", "#FFD46B", "#55ADFF"])
 nothing_normal = np.array(["#A5E75A", "#7254AD", "#FFD606", "#FF093D"])
 blue_orange = np.array(["#1655F2", "#0F1EAF", "#FD641F", "#FDBD29"])
+twenty = np.array(['#e6194B', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#42d4f4', '#f032e6', '#bfef45', '#fabed4', '#469990', '#dcbeff', '#9A6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1', '#000075', '#a9a9a9', '#ffffff', '#000000'])
 
 # Make a library 
-colors = {"Falling Leaves": falling_leaves, "Autumn Vibrant": autumn_vibrant, "Autumn Sale": sale_in_autumn, "Feast Your Heart": feast_your_heart, "Nothing Normal": nothing_normal, "Blue Orange Feelings": blue_orange}
+colors = {"Falling Leaves": falling_leaves, "Autumn Vibrant": autumn_vibrant, "Autumn Sale": sale_in_autumn, "Feast Your Heart": feast_your_heart, "Nothing Normal": nothing_normal, "Blue Orange Feelings": blue_orange, "twenty": twenty}
 
 
 if __name__ == "__main__":
